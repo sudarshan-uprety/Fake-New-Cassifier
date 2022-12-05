@@ -56,6 +56,6 @@ if st.button('Predict'):
         # 4. Display
 
         if result==1:
-            st.header("Fake News")
-        else:
             st.header("Real News")
+        else:
+            st.header("Fake News")
